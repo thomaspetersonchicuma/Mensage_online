@@ -47,6 +47,7 @@ public class MensagemController {
     public void add(Mensagem entity, Integer receptor,String descricao) {
         Usuario uso = usodao.find(receptor);
         Usuario uso1 = usodao.find(LoginController.valor);
+        
         entity.setDescricao(descricao);
         entity.setReceptor(uso);
         entity.setEmissor(uso1);

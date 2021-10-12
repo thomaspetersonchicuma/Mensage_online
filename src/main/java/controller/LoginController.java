@@ -12,7 +12,8 @@ import javax.swing.JOptionPane;
  *
  * @author
  */
-/*Login da API e nao da APP*/
+/*Method to access API Login
+And controll access levels into this project */
 @Controller
 @Path("/")
 public class LoginController {
