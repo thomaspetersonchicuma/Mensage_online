@@ -16,30 +16,29 @@ import javax.inject.Inject;
 public class InicialController {
 
     @Inject private Result result;
-//    @Inject private EventoDAO evedao;
 
+    /* Initial dashboard page Controller 
+    This method can make you access the initial project home page*/
     protected InicialController() {
 	this(null);
     }
 	
+    /* Initial dashboard Controller 
+    Get all data to initial project home page*/
     @Inject
     public InicialController(Result result) {
         this.result = result;
     }
 
+    /* Initial dashboard pege Controller 
+    project home page*/
     @Path("/inicial")
     public void inicial() {
     }
 
-    
+    /* Initial dashboard pege Controller 
+    Access client home page*/
     @Path("/paginacliente")
-    public void paginacliente() {
-//        result.include("lista", evedao.find(2));
-//        result.include("lista1", evedao.find(3));
-//        result.include("lista2", evedao.find(4));
-//        result.include("lista3", evedao.find(5));
-//        result.include("lista4", evedao.find(6));
-//        result.include("lista5", evedao.find(7));
-        
+    public void paginacliente() {  
     }
 }

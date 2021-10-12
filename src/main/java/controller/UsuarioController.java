@@ -15,6 +15,9 @@ import javax.swing.JOptionPane;
  * @author 
  */
 
+ /* User Controller Methods
+ This controller can give you all priviges to manage user data */
+
 @Controller
 @Path("/usuario")
 public class UsuarioController {
