@@ -1,0 +1,10 @@
+model\Mensagem_.class
+model\Usuario.class
+model\Mensagem.class
+model\Usuario_.class
+dao\MensagemDAO.class
+controller\LoginController.class
+controller\MensagemController.class
+controller\UsuarioController.class
+dao\UsuarioDAO.class
+controller\InicialController.class
